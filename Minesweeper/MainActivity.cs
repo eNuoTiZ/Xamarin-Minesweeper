@@ -5,6 +5,9 @@ using Android.OS;
 using Android.Support.Design.Widget;
 using Android.Support.V7.App;
 using Android.Views;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace Minesweeper
 {
@@ -23,7 +26,11 @@ namespace Minesweeper
 
 			FloatingActionButton fab = FindViewById<FloatingActionButton>(Resource.Id.fab);
             fab.Click += FabOnClick;
-		}
+
+            AppCenter.Start("c5679390-05d5-4bd9-b16a-d74a5df5e65e",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("c5679390-05d5-4bd9-b16a-d74a5df5e65e", typeof(Analytics), typeof(Crashes));
+        }
 
 		public override bool OnCreateOptionsMenu(IMenu menu)
         {

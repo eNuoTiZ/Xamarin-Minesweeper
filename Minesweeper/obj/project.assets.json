@@ -566,11 +566,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\GitHub\\Xamarin\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+      "projectUniqueName": "D:\\GitHub\\Xamarin-Minesweeper\\Minesweeper\\Minesweeper.csproj",
       "projectName": "Minesweeper",
-      "projectPath": "D:\\GitHub\\Xamarin\\Minesweeper\\Minesweeper\\Minesweeper.csproj",
+      "projectPath": "D:\\GitHub\\Xamarin-Minesweeper\\Minesweeper\\Minesweeper.csproj",
       "packagesPath": "C:\\Users\\olivi\\.nuget\\packages\\",
-      "outputPath": "D:\\GitHub\\Xamarin\\Minesweeper\\Minesweeper\\obj\\",
+      "outputPath": "D:\\GitHub\\Xamarin-Minesweeper\\Minesweeper\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
